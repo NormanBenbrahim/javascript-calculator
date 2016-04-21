@@ -1,0 +1,121 @@
+body {
+	background-color: #ccccff;
+	/*
+	background: url('https://i.ytimg.com/vi/ReOQ300AcSU/maxresdefault.jpg') no-repeat center center fixed;
+	background-size: cover;*/
+	height: 100%;
+	width: 100%;
+}
+
+.case {
+	vertical-align: middle;
+	border: 1px solid #666666;
+	margin-top: 100px;
+	padding: 10px 20px 20px 20px;
+	border-radius: 15px 15px 45px 15px;
+	background: url('http://images.all-free-download.com/images/graphiclarge/metal_background_of_highdefinition_picture_4_169712.jpg') no-repeat center center fixed;
+	background-size: cover;
+	/*background-color: #a6a6a6*/;
+	box-shadow: 1px 0px 4px 3px;
+	max-width: 300px;
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
+button {
+	padding: 15px 20px 15px 20px;
+	opacity: 1;
+	transition: 0.5s ease;
+	border-radius: 9px;
+	box-shadow: 2px -1px 3px 1px;
+	margin: 1px;
+	border: 1px solid gray;
+}
+
+button:hover {
+	opacity: 0.4;
+	background-color: #ffff33;
+	transition: 0.3s ease;
+}
+
+.special {
+	background-color: #ffad33;	
+}
+
+.number {
+	background-color: #eae3e1;
+}
+/*
+.buttons { 
+  table-layout: fixed;
+  border-collapse: collapse; 
+}*/
+
+.button-collection {
+	font-family: Karla, Verdana, sans-serif;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.screen {
+	background-color: #333733;
+	padding: 5px 1px 0px 10px;
+	color: #e0d5d2;
+	box-shadow: 2px 2px 2px
+}
+
+img {
+	width: 30px;
+	height: 30px;
+}
+
+span {
+	text-shadow: 2px 2px 2px;
+}
+
+/*Fixing up some button positioning*/
+
+#AC {
+	padding-right: 14px;
+	padding-left: 14px;
+}
+
+#ANS {
+	padding-right: 11px;
+	padding-left: 10px;
+}
+
+#PERCENT {
+	padding-right: 16px;
+	padding-left: 17px;	
+}
+
+#EQUAL {
+	padding-right: 50px;
+	padding-left: 50px;
+}
+
+#DIV {
+	padding-right: 20px;
+	padding-left: 20px;
+	margin-left: 4px
+}
+
+#N4 {
+	padding-right: 19px;
+}
+
+#N1 {
+	padding-right: 23px;
+}
+
+#DECIMAL {
+	padding-right: 25px;
+}
+
+#MINUS {
+	padding-right: 23px;
+}
